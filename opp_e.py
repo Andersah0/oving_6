@@ -43,7 +43,7 @@ if __name__ == "__main__": # Gjør at koden kan importeres uten at dette blir ta
     df2 = les_fil2("trykk_og_temperaturlogg_rune_time.csv.txt")
 
     # Skriver de første radene av fil 1
-    print(df2.head()) # Brukt for å teste koden
+    print(df1.head()) # Brukt for å teste koden
 
     # Skriver de første radene av fil 2
-    print(df1.head()) # Brukt for å teste koden
+    print(df2.head()) # Brukt for å teste koden
