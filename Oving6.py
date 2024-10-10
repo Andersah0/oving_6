@@ -22,8 +22,6 @@ def datatilliste_uis():
         for i in a[1:]:
             if i[2] != '/':
                 i = i.replace(',' , '.')
-                i = i.replace('am', 'AM')
-                i = i.replace('pm', 'PM')
                 x = i.split(';')
                 time.append(x[0])
                 temp.append(float(x[4]))
